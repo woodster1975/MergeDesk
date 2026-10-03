@@ -1,0 +1,65 @@
+MergeDesk - Windows x64
+
+Extract the entire ZIP, then double-click MergeDesk.App.exe.
+The .NET desktop runtime is included; no SDK installation is required.
+
+Need instructions? Click Help (F1), or press F1. Search the guide or
+choose a topic. Hover over any option for a tooltip. Watch walkthrough
+video opens the included 4:26 captioned MP4; pause and replay as needed.
+Keep HelpAssets with the application. USER-GUIDE.md is the written guide.
+
+New workflow improvements:
+- Tick recipients in Recipients; search only hides rows, it does not exclude them.
+- Use Exclude all, then search and Include shown to choose a small group.
+- Results offers Send test email: one selected row, only to your test address,
+  with CC and BCC cleared and the subject marked [TEST]. Confirm before sending.
+- Your workspace autosaves after idle edits. Restore autosave or Start fresh
+  appears at startup. Recovery never reconnects Outlook or resumes a send.
+- Reloading changed source data unticks every recipient until reviewed.
+
+In Compose, write your email in the visual Email body editor.
+Select text and use the font, size, bold, italic, underline, colour,
+alignment and list controls. The app generates HTML automatically.
+Use Insert merge field to add personal details from recipient data.
+The Subject box has its own field dropdown and Insert merge field in subject button.
+Use Insert image in the body editor for embedded PNG/JPEG/GIF images (up to 2 MiB).
+Save your project to keep the pictures and template together.
+Advanced HTML source is optional and collapsed by default.
+
+Load samples/recipients.csv or samples/recipients.xlsx to try a dry run.
+To prepare messages in Outlook:
+1. Open Outlook connection and choose classic Outlook or Microsoft 365/Outlook.com.
+2. Connect to a configured classic Outlook account, or follow the README's
+   one-time Microsoft app-registration setup and sign in through your browser.
+3. Validate and preview, then click Create Outlook drafts in Results.
+4. Open the selected account's Drafts folder in Outlook, review each email,
+   and click Send when ready.
+
+The Microsoft connection works with both new and classic Outlook for
+Microsoft-hosted mailboxes.
+
+To send directly from MergeDesk:
+1. Replace the generic example text and signature with your actual message.
+2. Validate and preview using addresses you control for the first test.
+3. Connect classic Outlook, or enable direct sending and sign in to Microsoft.
+   The Microsoft app registration needs delegated Mail.Send permission.
+4. In Results, choose Send emails and check the final confirmation.
+5. Check Outlook Outbox/Sent Items and received mail.
+
+Sending is paced and logged. Repeat direct-send runs skip identical messages
+already submitted by this feature. Interrupted/uncertain sends require review;
+there is no automatic retry that risks sending another copy. Earlier drafts
+sent manually in Outlook are not included in this send record.
+Review previous results before repeating a draft batch; a new batch creates
+new drafts. Real Outlook/Microsoft connections need testing on your account.
+See README.md for setup, limits and build instructions.
+
+New templates and pictures:
+- Compose: expand Templates & signatures to save or apply reusable messages.
+- New signature opens its own visual editor; Append signature adds it at the end.
+- Picture settings: choose an embedded picture, set width and alternative text.
+- Alignment moves the whole paragraph; use a separate picture line.
+- New instructions are in Help and USER-GUIDE.md; the video covers the earlier workflow.
+
+
+New: Results has Clear history, with confirmation. It clears all saved runs and displayed results while keeping exports, local run logs, Outlook messages and duplicate-send protection. MergeDesk now has its own logo and Windows icon.

@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{73611650-698B-46D0-8B46-996CE4C67A90}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeDesk.Core", "src\MergeDesk.Core\MergeDesk.Core.csproj", "{385C3DB3-7465-4025-8EA4-6F77BEE433A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeDesk.Infrastructure", "src\MergeDesk.Infrastructure\MergeDesk.Infrastructure.csproj", "{79BFC62D-A490-4263-9F1C-CDA902503E81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeDesk.App", "src\MergeDesk.App\MergeDesk.App.csproj", "{85B37CFC-BE12-4584-8248-7F5717D35D7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{76B24DE4-A464-4D94-89F8-ED2DA9AAEE8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeDesk.Tests", "tests\MergeDesk.Tests\MergeDesk.Tests.csproj", "{B6A1EACD-700E-46CA-AA40-6909FDE7548E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeDesk.EditorTests", "tests\MergeDesk.EditorTests\MergeDesk.EditorTests.csproj", "{0C635997-DC50-43AD-9ED3-737D9B1E0861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeDesk.DraftTests", "tests\MergeDesk.DraftTests\MergeDesk.DraftTests.csproj", "{5CDDC02F-CB24-464F-908A-88C234D3037A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{385C3DB3-7465-4025-8EA4-6F77BEE433A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385C3DB3-7465-4025-8EA4-6F77BEE433A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385C3DB3-7465-4025-8EA4-6F77BEE433A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385C3DB3-7465-4025-8EA4-6F77BEE433A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79BFC62D-A490-4263-9F1C-CDA902503E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79BFC62D-A490-4263-9F1C-CDA902503E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79BFC62D-A490-4263-9F1C-CDA902503E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79BFC62D-A490-4263-9F1C-CDA902503E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85B37CFC-BE12-4584-8248-7F5717D35D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B37CFC-BE12-4584-8248-7F5717D35D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B37CFC-BE12-4584-8248-7F5717D35D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B37CFC-BE12-4584-8248-7F5717D35D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6A1EACD-700E-46CA-AA40-6909FDE7548E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6A1EACD-700E-46CA-AA40-6909FDE7548E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6A1EACD-700E-46CA-AA40-6909FDE7548E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6A1EACD-700E-46CA-AA40-6909FDE7548E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C635997-DC50-43AD-9ED3-737D9B1E0861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C635997-DC50-43AD-9ED3-737D9B1E0861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C635997-DC50-43AD-9ED3-737D9B1E0861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C635997-DC50-43AD-9ED3-737D9B1E0861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CDDC02F-CB24-464F-908A-88C234D3037A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDDC02F-CB24-464F-908A-88C234D3037A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDDC02F-CB24-464F-908A-88C234D3037A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDDC02F-CB24-464F-908A-88C234D3037A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{385C3DB3-7465-4025-8EA4-6F77BEE433A5} = {73611650-698B-46D0-8B46-996CE4C67A90}
+		{79BFC62D-A490-4263-9F1C-CDA902503E81} = {73611650-698B-46D0-8B46-996CE4C67A90}
+		{85B37CFC-BE12-4584-8248-7F5717D35D7B} = {73611650-698B-46D0-8B46-996CE4C67A90}
+		{B6A1EACD-700E-46CA-AA40-6909FDE7548E} = {76B24DE4-A464-4D94-89F8-ED2DA9AAEE8F}
+		{0C635997-DC50-43AD-9ED3-737D9B1E0861} = {76B24DE4-A464-4D94-89F8-ED2DA9AAEE8F}
+		{5CDDC02F-CB24-464F-908A-88C234D3037A} = {76B24DE4-A464-4D94-89F8-ED2DA9AAEE8F}
+	EndGlobalSection
+EndGlobal

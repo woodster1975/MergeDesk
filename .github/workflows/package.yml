@@ -1,0 +1,25 @@
+name: Package portable application
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  package:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+      - name: Build and test
+        shell: pwsh
+        run: ./scripts/Test.ps1
+      - name: Publish self-contained Windows application
+        shell: pwsh
+        run: ./scripts/Publish.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: MergeDesk-Windows-x64
+          path: artifacts/MergeDesk-Windows-x64.zip
+          if-no-files-found: error

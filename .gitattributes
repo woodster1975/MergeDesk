@@ -1,0 +1,11 @@
+* text=auto
+*.cs text eol=lf
+*.xaml text eol=lf
+*.yml text eol=lf
+*.ps1 text eol=crlf
+*.iss text eol=crlf
+*.png binary
+*.ico binary
+*.mp4 binary
+*.xlsx binary
+ThirdPartyLicenses/** -whitespace

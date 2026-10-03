@@ -1,0 +1,3 @@
+# MergeDesk
+
+A Windows 10/11 desktop workspace for preparing and sending individual email messages from tabular data. Uses .NET 8 WPF, MVVM, a visual email composer, SQLite run history, local dry-run exports, draft creation and confirmed direct sending through classic Outlook or Microsoft Graph. Intended user: an office worker preparing notices or personalised correspondence. The starter body uses generic editable text and requires no account-number/name column. Sending requires a connected account, fresh validation, replacement of example text and final confirmation. Durable claims prevent repeated confirmed submissions; unknown outcomes stop the batch for review. Success means auditable preparation and submission, with delivery checked in Outlook and at the recipient.

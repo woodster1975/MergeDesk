@@ -1,0 +1,11 @@
+# Desktop workspace
+
+Operate mode. A daylight office interface with a dark evergreen header, white work surfaces, restrained teal actions and five task-oriented tabs. Keep large tables readable, preserve standard native controls and keyboard navigation, and make errors textual and actionable. Use Segoe UI for the native interface; Consolas only for HTML source and message details.
+
+Tokens: background #F3F6F8; surface #FFFFFF; foreground #1E293B; secondary #536277; action #146C60; header #183B3B; dividers #CFD8DF. Spacing follows 4/8/12/16/24/28 pixels. Body 14px, section headings 18–24px, product name 27px. Button radius 5px. Minimum window 920 × 650 with scrolling editors and tables; normal size 1200 × 820.
+
+Workflow: recipients → compose → validate/preview → Outlook connection → results. Keep drafts and dry-run status visible. Show the selected destination beside the draft action and in its confirmation. Use familiar language for account setup and offer classic/local or Microsoft/cloud connections on one page. Source row numbers are the stable identity for previews and results. Never execute or fetch HTML while previewing it. Full fidelity is assessed in Outlook or the exported MIME message.
+
+Keep sending a separate labelled action beside drafts and local export. Use an explicit confirmation with the account, maximum recipient count and pacing interval; default to No. A Microsoft connection remains draft-only unless direct sending is enabled and consented. Show accepted/submitted statuses rather than implying delivery. A cancelled or uncertain row must remain distinguishable from a confirmed submission. Generic starter copy uses square-bracket instructions and field insertion from the user's actual columns.
+
+Email composition uses a visual rich-text editor by default. Compact, labelled controls offer common fonts, point sizes, emphasis, colour, alignment, lists and undo/redo. Keep the editable email on a white surface with a 260px viewport and its own scrollbar. Put merge-field insertion and explicit plain-text generation beside the editor. Keep HTML source collapsed under an Advanced expander. Apply identical supported formatting in the recipient preview. Wrap the toolbar as the window narrows and preserve selection when toolbar controls take focus.
